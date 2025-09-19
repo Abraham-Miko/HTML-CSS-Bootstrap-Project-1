@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Tungsten';
+    src: url('../Font/Tungsten-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Tungsten', sans-serif;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../Font/dinnextw1g.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../Font/dinnextw1g_black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../Font/dinnextw1g_blackitalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../Font/dinnextw1g_bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../Font/dinnextw1g_heavy.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../Font/dinnextw1g_heavyitalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DIN Next W1G';
+    src: url('../Font/dinnextw1g_italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+.din-regular {
+    font-family: 'DIN Next W1G', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.din-italic {
+    font-family: 'DIN Next W1G', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.din-bold {
+    font-family: 'DIN Next W1G', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.din-heavy {
+    font-family: 'DIN Next W1G', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.din-heavy-italic {
+    font-family: 'DIN Next W1G', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.din-black {
+    font-family: 'DIN Next W1G', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.din-black-italic {
+    font-family: 'DIN Next W1G', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.custom-dropdown .dropdown-item {
+    color: white;
+    font-family: 'DIN Next W1G', sans-serif;
+    font-weight: 7 00;
+}
+
+.custom-dropdown .dropdown-item:hover {
+    background-color: #2c3034;
+    color: #ff4655;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #ff4655;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+    background-color: #2c3034;
+    color: #ff4655;
+}
